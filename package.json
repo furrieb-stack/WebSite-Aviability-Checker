@@ -1,0 +1,28 @@
+{
+  "name": "site-aviability-checker",
+  "version": "1.0.0",
+  "description": "CLI tool for website availability checking and security auditing",
+  "main": "dist/index.js",
+  "bin": {
+    "sac": "./dist/index.js"
+  },
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/index.js",
+    "dev": "ts-node src/index.ts"
+  },
+  "author": ".furrieb",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^1.7.0",
+    "chalk": "^4.1.2",
+    "cli-table3": "^0.6.5",
+    "boxen": "^5.1.2",
+    "ora": "^5.4.1"
+  },
+  "devDependencies": {
+    "typescript": "^5.5.0",
+    "ts-node": "^10.9.2",
+    "@types/node": "^20.14.0"
+  }
+}

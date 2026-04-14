@@ -1,0 +1,6 @@
+node_modules/
+dist/
+sac-logs/
+*.js.map
+*.d.ts
+*.log
